@@ -737,7 +737,7 @@
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/bootstrap\/responsive-custom.less",
 		"outputAbbreviatedPath": "\/css\/css\/responsive-custom.css",
@@ -980,6 +980,26 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/css\/responsive.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/responsive.less",
+		"outputAbbreviatedPath": "\/css\/responsive.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
 	"\/exhibition.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1051,17 +1071,6 @@
 		"initialSize": 169915,
 		"inputAbbreviatedPath": "\/img\/bg_portfolio.jpg",
 		"outputAbbreviatedPath": "\/img\/bg_portfolio.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/bg_portfolio2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 88452,
-		"inputAbbreviatedPath": "\/img\/bg_portfolio2.jpg",
-		"outputAbbreviatedPath": "\/img\/bg_portfolio2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

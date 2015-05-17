@@ -1,0 +1,211 @@
+@media (min-width: 1200px) {
+  .container {
+    width: 940px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+@media (max-width: 979px) {
+  .narrow {
+    width: 100% !important;
+  }
+  .portfolio .project {
+    height: 284px !important;
+  }
+  .portfolio .project:hover .screen {
+    transform: none !important;
+  }
+  .portfolio .project:hover .info .tag {
+    transition: none !important;
+    opacity: 0 !important;
+  }
+  .portfolio .project .screen {
+    transition: none !important;
+    transform: none !important;
+  }
+  .portfolio .project .screen .shots img {
+    width: 350px;
+  }
+  .portfolio .project .screen .frame {
+    width: 350px !important;
+    height: 8px !important;
+    background-position: 0 -154px !important;
+  }
+  .portfolio .project .screen.left {
+    margin: 0 50px 0 0 !important;
+  }
+  .portfolio .project .screen.right {
+    margin: 0 0px 0 50px !important;
+  }
+  .portfolio .project .screen.virtual {
+    margin-top: 62px !important;
+  }
+  .portfolio .project.bigimage .screen img {
+    width: 500px !important;
+  }
+  .portfolio .project .info {
+    padding-top: 0 !important;
+  }
+  .portfolio .project .info h1 {
+    font-size: 1.8em !important;
+  }
+  .exhibition .feature .multiscreenimage,
+  .exhibition .feature .frameworkimage {
+    max-width: 100% !important;
+  }
+  .exhibition .feature .process .arrow1,
+  .exhibition .feature .process .arrow2,
+  .exhibition .feature .process .arrow3 {
+    display: none !important;
+  }
+  .exhibition .feature .process ul li {
+    width: 100%;
+    margin: 0 0 30px 0 !important;
+  }
+  .exhibition .feature .process ul li .icon {
+    float: left;
+    margin: 0 30px 0 0 !important;
+  }
+  .exhibition .feature .process ul li h2 {
+    text-align: left !important;
+    margin: 5px 0 0 !important;
+  }
+  .exhibition .feature .process ul li p {
+    margin: 10px 0 0 !important;
+    overflow: auto;
+  }
+}
+@media (max-width: 800px) {
+  .wrapper404 .middle h1 {
+    font-size: 10em !important;
+  }
+  .posts .post .content p {
+    font-size: 1.3em !important;
+    line-height: 1.9em !important;
+  }
+  .posts .post .content blockquote {
+    font-size: 1.3em !important;
+    line-height: 1.9em !important;
+  }
+  .header .hue .content .navi {
+    margin: 38px 0 0 0 !important;
+  }
+  .header .hue .content .navi li {
+    margin: 0 0 0 20px !important;
+  }
+  .header .hue .content .navi li a {
+    font-size: 1.3em !important;
+  }
+  .header .hue .content .navi li.contact a {
+    padding: 6px 30px 4px 30px !important;
+  }
+  .header .hue .content .title {
+    font-size: 3.929em !important;
+  }
+  .navigate ul li {
+    width: 100% !important;
+    margin: 0 0 10px !important;
+    text-align: center;
+  }
+  .navigate ul li a {
+    font-size: 1.3em !important;
+    padding: 9px 20px 7px 20px !important;
+  }
+  .modal .navi {
+    float: none !important;
+    text-align: right !important;
+  }
+  .modal .navi li a {
+    font-size: 1.2em !important;
+    padding: 6px 30px 4px 30px !important;
+  }
+  .modal .contact {
+    position: inherit !important;
+    margin-top: 50px !important;
+  }
+  .modal .contact p {
+    margin: 30px 0 30px 0 !important;
+    line-height: 1.7em !important;
+    font-size: 1.286em !important;
+  }
+  .modal .contact .socials {
+    padding-bottom: 40px !important;
+  }
+  .modal .contact .socials li {
+    width: 100%;
+    padding: 0 20px 0 20px;
+  }
+  .modal .contact .socials li a {
+    width: 100%;
+    border-top: none !important;
+    border-left: 2px solid #fff;
+    padding: 25px 35px 23px 35px !important;
+  }
+  .modal .contact .socials li.twitter a {
+    border-top: 2px solid #fff !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-right-radius: 3px !important;
+  }
+  .modal .contact .socials li.flickr a {
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 3px !important;
+  }
+}
+@media (max-width: 767px) {
+  .wrapper404 .middle h1 {
+    font-size: 8em !important;
+  }
+  .wrapper404 .middle p {
+    font-size: 1em !important;
+  }
+  .portfolio .project {
+    height: auto !important;
+    margin-top: 50px !important;
+  }
+  .portfolio .project .info p {
+    font-size: 1.3em !important;
+    line-height: 1.9em !important;
+  }
+  .portfolio .project .info .button a {
+    font-size: 1.3em !important;
+  }
+  .portfolio .project .info h1 {
+    font-size: 2em !important;
+    font-weight: 300 !important;
+  }
+  .portfolio .project .screen {
+    display: none !important;
+  }
+  .portfolio .project.bigimage .info {
+    width: auto !important;
+  }
+}
+@media (max-width: 440px) {
+  footer {
+    padding: 30px 0 30px 0 !important;
+  }
+  footer .container .wrap {
+    width: 36px !important;
+  }
+  footer .container .wrap .text {
+    display: none !important;
+  }
+  .exhibition .feature p {
+    font-size: 1.3em !important;
+    line-height: 1.9em !important;
+  }
+  .exhibition .feature .process ul li .icon {
+    display: none !important;
+  }
+  .exhibition .feature .process ul h2 {
+    font-size: 1.4em !important;
+  }
+  .exhibition .feature .process ul p {
+    font-size: 1.3em !important;
+    line-height: 1.9em !important;
+  }
+  .header .hue .content .navi .contact a {
+    border: 0px;
+    padding: 0px;
+  }
+}

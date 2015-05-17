@@ -1,6 +1,5 @@
 // Imports
 @import "bootstrap/bootstrap.less";
-@import "bootstrap/responsive-custom.less";
 
 
 // ===== Primary Styles ===========================================================================
@@ -81,11 +80,11 @@ p, ul, ol {
 				li {
 					list-style: none;
 					display: inline-block;
-					margin: 0 0 0 60px;
+					margin: 0 0 0 40px;
 					
 					a {
 						color: #fff;
-						font-size: 0.929em;
+						font-size: 1em;
 						font-weight: bold;
 						.opacity(0.65);
 						transition: opacity 0.35s;
@@ -830,3 +829,6 @@ footer {
 		}
 	}
 }
+
+// responsive
+@import "responsive.less";
